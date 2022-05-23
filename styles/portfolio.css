@@ -2,7 +2,12 @@ body {
   background-color: aqua;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: black;
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -11,4 +16,8 @@ h1 {
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+}
+
+.hero {
+  background: #f9f7fe;
 }
