@@ -21,6 +21,7 @@ p {
 .hero {
   background: #f9f7fe;
   text-align: center;
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -43,5 +44,5 @@ p {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 2px 20px;
+  padding: 12px 20px;
 }
