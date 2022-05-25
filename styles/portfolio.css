@@ -36,6 +36,10 @@ h2 {
   font-size: 64px;
 }
 
+img {
+  line-height: 1.5px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
