@@ -80,12 +80,11 @@ h2 {
 
 @media (max-width: 900px) {
   h1 {
-    font: size 44px;
-    line-height: 1px;
+    font-size: 44px;
   }
 
   h2 {
-    font: size 44px;
+    font-size: 44px;
   }
 
   .hero {
