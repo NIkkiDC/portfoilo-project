@@ -65,13 +65,21 @@ img {
 }
 
 .about-section h1 {
-  font-size: 64px;
+  font-size: 50px;
   line-height: 80px;
 }
 
+.about-section h2 {
+  font-size: 22px;
+}
+
 .about-section p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .btn-branding {
