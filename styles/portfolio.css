@@ -71,6 +71,7 @@ img {
 
 .about-section h2 {
   font-size: 22px;
+  text-
 }
 
 .about-section p {
@@ -120,5 +121,10 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-section {
+      text-align: center;
+      padding: 0;
   }
 }
