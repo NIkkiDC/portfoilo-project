@@ -118,7 +118,7 @@ img {
 }
 
 nav {
-  paddign: 20px 0;
+  padding: 20px 0;
 }
 
 nav ul {
@@ -130,6 +130,10 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 40px;
+  margin-left: 15px;
+}
+
+nav a {
 }
 
 @media (max-width: 900px) {
