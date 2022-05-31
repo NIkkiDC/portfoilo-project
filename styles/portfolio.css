@@ -65,8 +65,9 @@ img {
 }
 
 .content h1 {
-  font-size: 50px;
-  line-height: 80px;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: var(--heading-font-family);
 }
 
 .content h2 {
@@ -77,10 +78,12 @@ img {
 .content h3 {
   font-size: 24px;
   font-family: var(--default-font-family);
+  line-height: 1;
+  margin: 20px 0 0;
 }
 
-.content-container p {
-  font-size: 16px;
+.content p {
+  font-size: 14px;
   font-family: var(--default-font-family);
 }
 
@@ -128,7 +131,7 @@ img {
     text-align: center;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
