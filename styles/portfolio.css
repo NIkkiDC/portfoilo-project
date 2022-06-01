@@ -158,6 +158,12 @@ footer .email-link:hover {
   color: var(--branding-color);
 }
 
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
