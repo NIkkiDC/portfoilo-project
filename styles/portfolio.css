@@ -114,7 +114,7 @@ img {
 }
 
 .logo {
-  max-width: 50px;
+  max-height: 50px;
 }
 
 nav {
@@ -136,6 +136,10 @@ nav li {
 nav a {
   text-decoration: none;
   color: #272142;
+}
+
+nav li.active a {
+  color: var(--branding-color);
 }
 
 nav a:hover {
