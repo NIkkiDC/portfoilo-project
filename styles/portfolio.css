@@ -36,6 +36,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 img {
   line-height: 1.5px;
 }
@@ -149,10 +153,15 @@ nav a:hover {
 
 footer .contact-box {
   background-color: var(--secondary-color);
-  padding: 35px;
+  padding: 35px 120px;
   border-radius: 5%;
   margin: 40px;
 }
+
+footer .contact-box p {
+  margin: 0;
+}
+
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -188,6 +197,15 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
+  h4 {
+    font-size: 24px;
+  }
+
+  .btn {
+    width: 18px 6px;
+    font-size: 18px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -204,5 +222,9 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 14px;
+  }
+
+  footer .content-box {
+    padding: 25px;
   }
 }
