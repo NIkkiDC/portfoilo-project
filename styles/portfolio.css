@@ -165,7 +165,7 @@ footer .social-links a {
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
-  transition: all 150ms;
+  transition: all 150ms ease-in-out;
 }
 
 footer .social-links a:hover {
