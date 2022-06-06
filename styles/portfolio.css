@@ -1,12 +1,14 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #935f43;
+  --secondary-color: #f8cdb5;
+  --text-color: #34231d;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
+  color: var(--text-color);
 }
 
 h1,
@@ -15,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: color: var(--text-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -25,19 +27,23 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  color: var(--text-color);
 }
 
 h1 {
   font-size: 96px;
   line-height: 1.5;
+  color: var(--text-color);
 }
 
 h2 {
   font-size: 64px;
+  color: var(--text-color);
 }
 
 h4 {
   font-size: 48px;
+  color: var(--text-color);
 }
 
 img {
@@ -65,11 +71,12 @@ img {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 0px 20px;
 }
 
 .content h1 {
   font-size: 40px;
+  color: var(--text-color);
   line-height: 50px;
   font-family: var(--heading-font-family);
 }
@@ -98,7 +105,7 @@ img {
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
-  color: white;
+  color: var(--secondary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 20px;
@@ -139,7 +146,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--text-color);
 }
 
 nav li.active a {
@@ -154,7 +161,7 @@ nav a:hover {
 footer .contact-box {
   background-color: var(--secondary-color);
   padding: 35px 120px;
-  border-radius: 5%;
+  border-radius: 3%;
   margin: 40px;
 }
 
@@ -164,7 +171,7 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: color: var(--text-color);
   font-size: 24px;
   text-align: center;
 }
@@ -188,6 +195,11 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
+p .codeby {
+  font-size: 200px;
+  color:red;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -199,11 +211,6 @@ footer .social-links a:hover {
 
   h4 {
     font-size: 24px;
-  }
-
-  .btn {
-    width: 18px 6px;
-    font-size: 18px;
   }
 
   .hero {
