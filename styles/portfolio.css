@@ -50,6 +50,10 @@ img {
   line-height: 1.5px;
 }
 
+.img1 {width: 600px; height: 228px;}
+.img2 {width: 600px; height: 228px;}
+.img3 {width: 600px; height: 228px;}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
